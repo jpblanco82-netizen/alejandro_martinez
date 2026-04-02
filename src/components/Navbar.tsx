@@ -20,10 +20,10 @@ const Navbar = () => {
   ];
 
   return (
-    <nav className="fixed top-6 left-1/2 -translate-x-1/2 z-[100] w-[95%] max-w-5xl">
-      <div className="bg-background border-brutal border-foreground px-4 md:px-8 py-4 flex items-center justify-between shadow-brutal-accent">
-        <Link href="/" className="font-display text-2xl lg:text-3xl tracking-tighter uppercase font-black hover:text-accent transition-colors">
-          AJE <span className="text-accent underline decoration-4">MARTINEZ</span>
+    <nav className="fixed top-4 md:top-6 left-1/2 -translate-x-1/2 z-[100] w-[95%] max-w-5xl">
+      <div className="bg-background border-brutal border-foreground px-4 md:px-8 py-3 md:py-4 flex items-center justify-between shadow-[4px_4px_0px_0px_var(--color-accent)] md:shadow-brutal-accent transition-all">
+        <Link href="/" className="font-display text-xl md:text-2xl lg:text-3xl tracking-tighter uppercase font-black hover:text-accent transition-colors shrink-0">
+          AJE <span className="text-accent underline decoration-2 md:decoration-4">MARTINEZ</span>
         </Link>
         
         {/* Desktop Nav */}

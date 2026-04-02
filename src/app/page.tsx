@@ -31,31 +31,31 @@ export default function Home() {
   return (
     <div className="relative overflow-x-hidden pt-20">
       {/* Massive Hero Section */}
-      <section className="relative min-h-[90vh] flex flex-col items-center justify-center px-6 overflow-hidden border-b-brutal border-foreground">
+      <section className="relative min-h-[90vh] flex flex-col items-center justify-center pt-48 md:pt-32 px-6 overflow-hidden border-b-brutal border-foreground">
         <motion.div 
           initial={{ opacity: 0, scale: 0.95 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 1 }}
           className="w-full max-w-7xl z-10"
         >
-          <div className="bg-accent-red text-background inline-block px-4 py-2 font-display text-2xl uppercase border-brutal border-foreground mb-12 rotate-[-2deg]">
+          <div className="bg-accent-red text-background inline-block px-4 py-2 font-display text-xl md:text-2xl uppercase border-brutal border-foreground mb-8 md:mb-12 rotate-[-2deg]">
             ARTISTA URBANO // MULTIDISCIPLINAR
           </div>
-          <h1 className="font-display text-[15vw] lg:text-[14vw] leading-[0.7] tracking-tighter uppercase font-black">
+          <h1 className="font-display text-[12vw] md:text-[15vw] lg:text-[14vw] leading-[0.7] tracking-tighter uppercase font-black">
             <span className="block text-accent text-glow-neon">AJE</span>
             <span className="block italic">MARTINEZ</span>
           </h1>
           
-          <div className="mt-16 flex flex-col md:flex-row items-start md:items-end justify-between gap-12">
-            <p className="max-w-xl text-2xl font-bold uppercase tracking-tight text-muted leading-[1.1] bg-background/80 backdrop-blur-sm p-4 border-l-brutal border-accent">
+          <div className="mt-12 md:mt-16 flex flex-col md:flex-row items-start md:items-end justify-between gap-12">
+            <p className="max-w-xl text-xl md:text-2xl font-bold uppercase tracking-tight text-muted leading-[1.1] bg-background/80 backdrop-blur-sm p-4 border-l-brutal border-accent">
               Fundiendo la fotografía callejera con el experimentalismo sonoro. Rompiendo marcos, capturando frecuencias.
             </p>
             
             <Link 
               href="/proyectos"
-              className="bg-accent text-background px-12 py-8 border-brutal border-foreground font-display text-5xl uppercase shadow-brutal hover:-translate-y-2 hover:shadow-brutal-accent transition-all duration-300 flex items-center gap-6"
+              className="bg-accent text-background px-8 md:px-12 py-6 md:py-8 border-brutal border-foreground font-display text-3xl md:text-5xl uppercase shadow-brutal hover:-translate-y-2 hover:shadow-brutal-accent transition-all duration-300 flex items-center gap-4 md:gap-6"
             >
-              EL LAB <ArrowRight size={60} />
+              EL LAB <ArrowRight className="w-8 h-8 md:w-16 md:h-16" />
             </Link>
           </div>
         </motion.div>
