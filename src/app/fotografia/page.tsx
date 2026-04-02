@@ -98,7 +98,7 @@ export default function FotografiaPage() {
   const [selected, setSelected] = useState<{ folder: string, index: number, title: string, count: number } | null>(null);
 
   const sections = [
-    { id: "personas", title: "PERSONAS", subtitle: "Identidades capturadas en el margen de la cultura urbana.", count: 9, folder: "personas", icon: Users, accentColor: "text-accent-red" },
+    { id: "personas", title: "PERSONAS", subtitle: "Identidades capturadas en el margen de la cultura urbana.", count: 10, folder: "personas", icon: Users, accentColor: "text-accent-red" },
     { id: "accion", title: "EN ACCIÓN", subtitle: "La energía del movimiento congelada en un solo bit de tiempo.", count: 10, folder: "en-accion", icon: Zap, accentColor: "text-accent" },
     { id: "naturaleza", title: "NATURALEZA", subtitle: "Texturas orgánicas que rompen la homogeneidad del cemento.", count: 10, folder: "naturaleza", icon: TreePine, accentColor: "text-accent-red" },
     { id: "espacios", title: "ESPACIOS", subtitle: "Arquitectura brutalista y rincones que respiran sonido gélido.", count: 10, folder: "espacios", icon: Map, accentColor: "text-accent" },
