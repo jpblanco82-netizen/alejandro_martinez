@@ -51,14 +51,16 @@ export default function SobreMiPage() {
            <div className="absolute -top-10 -left-10 w-full h-full border-brutal border-accent mix-blend-multiply pointer-events-none z-0" />
            <div className="relative z-10 border-brutal border-foreground aspect-[4/5] bg-muted grayscale overflow-hidden shadow-brutal-accent">
               <Image 
-                src="https://images.unsplash.com/photo-1549416801-6fcc78e3678b?q=80&w=1200&auto=format&fit=crop"
-                alt="Portrait"
+                src="/images/sobre-mi/sobre-mi.jpg"
+                alt="Retrato Aje Martínez"
                 fill
                 className="object-cover"
               />
-              <div className="absolute bottom-10 right-0 bg-accent-red text-background px-8 py-4 font-display text-5xl lg:text-7xl uppercase -rotate-90 origin-bottom-right shadow-brutal border-brutal border-foreground">
-                AJ_MRT 2026
-              </div>
+           </div>
+           
+           {/* Artist Tag - Moved outside overflow-hidden but anchored to the image */}
+           <div className="absolute bottom-12 -right-6 lg:-right-10 z-20 bg-accent-red text-background px-6 py-3 font-display text-4xl lg:text-6xl uppercase -rotate-90 origin-center shadow-brutal border-brutal border-foreground whitespace-nowrap">
+             AJ_MRT 2026
            </div>
         </motion.div>
       </div>

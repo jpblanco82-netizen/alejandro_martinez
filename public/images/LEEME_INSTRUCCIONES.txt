@@ -1,0 +1,34 @@
+🖼️ GUÍA DE NOMENCLATURA PARA TUS IMÁGENES
+==========================================
+
+Para que tus fotos aparezcan automáticamente en el portfolio de AJE MARTINEZ, súbelas a las siguientes carpetas con estos nombres exactos (en formato .jpg):
+
+1. SOBRE MÍ (Tu Biografía)
+-------------------------
+📂 Carpeta: public/images/sobre-mi/
+📄 Nombre: sobre-mi.jpg
+
+2. FOTOGRAFÍA (Categorizada por Proyecto)
+---------------------------------------
+📂 Carpetas y Cantidades:
+   - public/images/fotografia/personas/ (11 fotos: foto-1.jpg... foto-11.jpg)
+   - public/images/fotografia/en-accion/ (10 fotos: foto-1.jpg... foto-10.jpg)
+   - public/images/fotografia/naturaleza/ (10 fotos: foto-1.jpg... foto-10.jpg)
+   - public/images/fotografia/espacios/ (10 fotos: foto-1.jpg... foto-10.jpg)
+
+3. PROYECTOS (Tu Grid de Trabajos)
+---------------------------------
+📂 Carpeta: public/images/proyectos/
+📄 Nombres:
+   - proyecto-1.jpg
+   - proyecto-2.jpg
+   - proyecto-3.jpg
+
+💡 TIPS:
+--------
+- Formato: .jpg (preferible)
+- Peso: < 800KB para carga rápida.
+- Proporciones: Verticales (4:5) para un mejor impacto visual.
+
+------------------------------------------
+Portfolio AJE MARTINEZ x Antigravity
