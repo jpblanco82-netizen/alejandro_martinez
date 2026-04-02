@@ -15,32 +15,36 @@ export default function SobreMiPage() {
            <h1 className="font-display text-[12vw] lg:text-9xl leading-[0.8] uppercase mb-12 tracking-tighter">
              BIO <br /> <span className="text-accent underline decoration-[20px]">TECHNICAL</span>
            </h1>
-           <div className="space-y-8 font-bold text-2xl uppercase leading-tight text-muted">
+            <div className="space-y-8 font-bold text-xl lg:text-2xl uppercase leading-tight text-muted">
               <p>
-                Aje Martínez es un narrador visual y coleccionista de sonidos con base en la periferia de la cultura urbana. Con más de una década experimentando con la síntesis de texturas analógicas y el glitch digital.
+                Aje Martínez es un narrador visual y coleccionista de sonidos con base en la periferia de la cultura urbana. Mi viaje comenzó de forma casi accidental, heredando una cámara vieja que despertó una curiosidad latente.
               </p>
               <p>
-                Su trabajo ha sido descrito como "una bofetada de realidad de alta definición", enfocándose en la intersección entre la música electrónica experimental y la fotografía documental de calle.
+                No fue hasta dar el salto a una cámara réflex cuando esa curiosidad se transformó en una búsqueda consciente y profesional. Pulí mi técnica entre bodas, videoclips y conciertos, definiendo un estilo que hoy fusiona la síntesis de texturas analógicas con el glitch digital.
               </p>
+              <p className="text-foreground border-l-brutal border-accent pl-6 bg-accent/5 py-4">
+                Entiendo la fotografía como una forma de observar sin contar demasiado: aprendiendo de cada disparo, capturando la energía del movimiento congelada en un solo bit de tiempo.
+              </p>
+              
               <div className="grid grid-cols-2 gap-8 border-brutal border-foreground p-8 bg-foreground text-background">
                  <div className="flex flex-col">
-                    <span className="opacity-60 text-sm">LOCATION</span>
-                    <span>MADRID_URBANA</span>
+                    <span className="opacity-60 text-sm">ORIGIN</span>
+                    <span>ANALOG_HERITAGE</span>
                  </div>
                  <div className="flex flex-col">
-                    <span className="opacity-60 text-sm">BORN</span>
-                    <span>1995_DIGITAL</span>
+                    <span className="opacity-60 text-sm">EVOLUTION</span>
+                    <span>REFLEX_SHIFT</span>
                  </div>
                  <div className="flex flex-col">
                     <span className="opacity-60 text-sm">GEAR</span>
                     <span>MODULAR_SYNTH</span>
                  </div>
                  <div className="flex flex-col">
-                    <span className="opacity-60 text-sm">LENS</span>
-                    <span>35MM_PRIME</span>
+                    <span className="opacity-60 text-sm">FOCUS</span>
+                    <span>PURE_OBSERVATION</span>
                  </div>
               </div>
-           </div>
+            </div>
         </motion.div>
         
         <motion.div 
