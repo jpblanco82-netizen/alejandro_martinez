@@ -11,7 +11,7 @@ Para que tus fotos aparezcan automáticamente en el portfolio de AJE MARTINEZ, s
 2. FOTOGRAFÍA (Categorizada por Proyecto)
 ---------------------------------------
 📂 Carpetas y Cantidades:
-   - public/images/fotografia/personas/ (11 fotos: foto-1.jpg... foto-11.jpg)
+   - public/images/fotografia/personas/ (9 fotos: foto-1.jpg... foto-9.jpg)
    - public/images/fotografia/en-accion/ (10 fotos: foto-1.jpg... foto-10.jpg)
    - public/images/fotografia/naturaleza/ (10 fotos: foto-1.jpg... foto-10.jpg)
    - public/images/fotografia/espacios/ (10 fotos: foto-1.jpg... foto-10.jpg)
