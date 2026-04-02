@@ -1,6 +1,6 @@
-# Alejandro Martínez: Multidisciplinary Artist Portfolio
+# AJE MARTINEZ: Multidisciplinary Artist Portfolio
 
-This project is a high-performance, design-led portfolio and workspace for **Alejandro Martínez**, a multidisciplinary artist specializing in **Photography**, **Music**, and creative experimentation.
+This project is a high-performance, design-led portfolio and workspace for **Aje Martínez**, a multidisciplinary artist specializing in **Photography**, **Music**, and creative experimentation.
 
 Built with **Next.js 15 (App Router)**, **TypeScript**, and **TailwindCSS**, this platform is designed to showcase high-fidelity media assets with a premium aesthetic.
 
