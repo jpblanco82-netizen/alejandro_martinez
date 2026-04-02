@@ -52,7 +52,7 @@ export default function Home() {
             </p>
             
             <Link 
-              href="/proyectos"
+              href="/fotografia"
               className="bg-accent text-background px-8 md:px-12 py-6 md:py-8 border-brutal border-foreground font-display text-3xl md:text-5xl uppercase shadow-brutal hover:-translate-y-2 hover:shadow-brutal-accent transition-all duration-300 flex items-center gap-4 md:gap-6"
             >
               EL LAB <ArrowRight className="w-8 h-8 md:w-16 md:h-16" />
@@ -74,8 +74,7 @@ export default function Home() {
 
       {/* Navigation Teasers */}
       <section className="py-24 bg-foreground relative">
-        <div className="max-w-screen-2xl mx-auto px-6 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-           <TeaserCard title="Proyectos" href="/proyectos" icon={LayoutGrid} />
+        <div className="max-w-screen-2xl mx-auto px-6 grid grid-cols-1 md:grid-cols-3 gap-8">
            <TeaserCard title="Fotografía" href="/fotografia" icon={Camera} delay={0.1} />
            <TeaserCard title="Música" href="/musica" icon={Music} delay={0.2} />
            <TeaserCard title="Sobre mí" href="/sobre-mi" icon={User} delay={0.3} />

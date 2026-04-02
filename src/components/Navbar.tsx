@@ -12,7 +12,7 @@ const Navbar = () => {
 
   const menuItems = [
     { name: "Inicio", href: "/" },
-    { name: "Proyectos", href: "/proyectos" },
+    { name: "Inicio", href: "/" },
     { name: "Fotografía", href: "/fotografia" },
     { name: "Música", href: "/musica" },
     { name: "Sobre mí", href: "/sobre-mi" },
